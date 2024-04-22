@@ -1,0 +1,19 @@
+
+    .carousel-item img {
+      width: 100%;
+      height: 1000px; /* Réglez la hauteur de l'image selon vos besoins */
+      object-fit: cover; /* Ajustez la façon dont l'image est redimensionnée pour couvrir le conteneur */
+    }
+
+    .content {
+      overflow: hidden;
+      transition: height 0.5s; /* Ajoute une transition pour une animation fluide */
+  }
+  
+  .expanded {
+      height: auto !important; /* Assurez-vous que la classe expanded a priorité sur la hauteur définie par JavaScript */
+  }
+
+  .showbutton {
+    
+  }
